@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&display=swap');
+
+html,body{
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+main{
+    font-family:'Lexend Deca', sans-serif;
+    margin: auto;
+}
+
+.principal{
+    width: 700px;
+    height: 525px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.tituloP{
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    font-size: 2rem;
+    top:0%;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+
+
+.texto{
+    top:0%;
+    position: absolute;
+    text-align: center left;
+    margin-left: 28%;
+    margin-top: 18%;
+    font-size: 14px;
+    color: hsl(158, 36%, 37%);
+    line-height: 25px;
+}
+
+img{
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    display: block;
+    transition-duration: .2s;
+}
+
+
+.tituloC{
+    top:0%;
+    margin-left: 28%;
+    margin-top:3%;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: lighter;
+    color: hsl(158, 36%, 37%);
+}
+
+#precio1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    font-size: 2rem;
+    margin-left: 28%;
+    color: hsl(158, 36%, 37%);
+    top:0%;
+    position: absolute;
+    margin-top: 27%;
+}
+
+#precio2{
+    text-decoration: line-through;
+    position: absolute;
+    top:0%;
+    margin-top: 27.8%;
+    margin-left: 39%; 
+    color: hsl(158, 36%, 37%);
+}
+
+.boton{
+    padding:20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    width: 220px;
+    position: absolute;
+    top:0%;
+    margin-top: 32%;
+    margin-left: 28%;
+    color: hsl(30, 38%, 92%);
+    background-color:hsl(158, 36%, 37%);
+    transition-duration: .2s;
+}
+
+.boton img{
+    width: 20px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+
+
